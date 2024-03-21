@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 import mysql.connector
+from config import *
 
 app = Flask(__name__)
 
@@ -29,4 +30,3 @@ def login():
         else:
             # Credenciais inválidas
             return render_template("login.html", error="Credenciais inválidas.")
-
