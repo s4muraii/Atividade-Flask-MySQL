@@ -1,5 +1,5 @@
 # Configurações do banco de dados
-HOST = "localhost"
-USER = "root"
-PASSWORD = "senha"
+HOST = "192.168.0.124"
+USER = ""
+PASSWORD = ""
 DATABASE = "quitanda"

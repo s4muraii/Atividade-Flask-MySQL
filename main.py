@@ -20,7 +20,7 @@ def login():
         cursor = connection.cursor()
 
         # Validar o usuário
-        query = "SELECT * FROM usuarios WHERE username = %s AND password = %s"
+        query = "SELECT * FROM Usuarios WHERE usuario = %s AND senha = %s"
         cursor.execute(query, (username, password))
         user = cursor.fetchone()
 
