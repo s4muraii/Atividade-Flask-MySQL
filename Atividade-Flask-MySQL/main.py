@@ -3,7 +3,7 @@ import mysql.connector as sql
 import csv
 import os
 
-connection = sql.connect(host="127.0.0.1", user="root", password="", database="logins")
+connection = sql.connect(host="127.0.0.1", user="root", password="", database="quitanda")
 
 cursor = connection.cursor()
 
